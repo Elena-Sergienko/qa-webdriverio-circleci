@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611024766650' stop='1611024817857'>
+    <name>TS: LOGIN</name>
+    <title>TS: LOGIN</title>
+    <test-cases>
+        <test-case start='1611024766650' status='failed' stop='1611024817857'>
+            <name>TC: Should login with valid credentials</name>
+            <title>TC: Should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='44fd19aa-c216-4be8-92c6-32d8498ce190-attachment.png' type='image/png' size='65274'/>
+                <attachment title='Screenshot' source='94b38b68-1a5b-49dc-a967-78c8bb1cf014-attachment.png' type='image/png' size='59042'/>
+                <attachment title='Screenshot' source='3fc5d3a5-cb42-49f3-a087-9e88869a322c-attachment.png' type='image/png' size='79181'/>
+                <attachment title='Screenshot' source='bdf794b1-9159-409a-b7e0-b7d98016c3ce-attachment.png' type='image/png' size='74147'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//div[@id ='top-menu']`) not to be existing
+                
+                Expected [not]: "not existing"
+                Received      : "existing"</message>
+                <stack-trace>Error: Expect $(`//div[@id ='top-menu']`) not to be existing
+                
+                Expected [not]: "not existing"
+                Received      : "existing"
+                    at Context.&lt;anonymous> (D:\ProjectsREACT\qa-webdriverio\test\specs\/login.spec.js:29:42)
+                    at Context.executeSync (D:\ProjectsREACT\qa-webdriverio\node_modules\@wdio\sync\build\index.js:25:22)
+                    at D:\ProjectsREACT\qa-webdriverio\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
